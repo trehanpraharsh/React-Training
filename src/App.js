@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import CounterApp from "./components/Counter/CounterApp";
+import RestApp from "./components/Rest/RestApp";
+import AddUser from "./components/Rest/AddUser";
+import LandingPage from "../src/components/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CounterApp /> */}
+      {/* <RestApp /> */}
+      <LandingPage />
     </div>
   );
 }
